@@ -1,0 +1,149 @@
+body {
+  font-family: "Epilogue";
+}
+
+/* body text */
+#body-text {
+  position: relative;
+  padding: 6% 10%;
+}
+
+/* Navbar */
+#navbar-options {
+  padding: 1% 2%;
+}
+
+#navbar-options:hover {
+  background-color: white;
+  color: black;
+}
+
+.register-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.navbar {
+  margin-right: 20px;
+}
+
+.navbar-brand {
+  font: Epilogue;
+  font-weight: bold;
+  font-size: 30px;
+  margin-right: 50px;
+}
+
+.nav-link {
+  margin-right: 30px;
+}
+
+/* dropdown menu */
+.dropdown-menu {
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.dropdown-item {
+  color: hsl(0, 0%, 41%);
+}
+
+i {
+  margin-right: 10px;
+}
+
+.fa-calendar-days {
+  color: #726CEE;
+}
+
+.fa-calendar-day {
+  color: #4BB1DA;
+}
+
+.fa-bell {
+  color: #EDD556;
+}
+
+.fa-clock {
+  color: #8E4CB6;
+}
+
+/* Main webpage */
+.main-image {
+  position: relative;
+  margin-left: 60px;
+  width: 90%;
+}
+
+.main-title {
+  font: Epilogue;
+  font-weight: 700;
+  font-size: 75px;
+  padding-bottom: 30px;
+  margin-top: 90px;
+}
+
+.product-description {
+  font: Epilogue;
+  font-size: 18px;
+  color: hsl(0, 0%, 41%);
+  padding-bottom: 30px;
+  margin-top: 0;
+}
+
+/* learn more button */
+.learn-more {
+  font: Epilogue;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 10px 23px;
+  border-radius: 15px;
+  margin: 10px 0 30px 0;
+}
+
+.learn-more:hover {
+  background-color: white;
+  color: black;
+}
+
+/* footer */
+.footer {
+  padding-top: 85px;
+}
+
+.footer-icon {
+  margin: 0 35px 0 0;
+}
+
+/* attribution */
+.attribution {
+  margin-top: 20px;
+}
+
+@media (max-width: 1028px) {
+  body {
+    text-align: center;
+  }
+
+  .main-title {
+    font-size: 50px;
+  }
+
+  .product-description {
+    font-size: 15px
+  }
+
+  .learn-more {
+    margin: 0;
+  }
+
+  .footer-icon {
+    text-align: center;
+    width: auto;
+    margin: 0;
+  }
+
+  .main-image {
+    width: 75%;
+    text-align: center
+  }
+}
